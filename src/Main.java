@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Author gogol = new Author("Николай", "Гоголь");
+        Book deadSouls = new Book("Мертвые души", 1842, gogol);
+        deadSouls.setPublisherYear(2001);
+        Author kiyosaki = new Author("Роберт", "Киосаки");
+        Book richDad = new Book("Богатый и бедный папа", 1997, kiyosaki);
     }
+
+
 }
